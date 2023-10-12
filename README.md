@@ -20,4 +20,4 @@
 - add "." before domain `CTRL+H` => `(^.*)$` => `.$1`
 
 ## NetPatch Firewall
-- загрузить список в группу [https://github.com/squamaskin/netPatch_StevenBlack_hosts/files/ad.txt](https://github.com/squamaskin/netPatch_StevenBlack_hosts/files/ad.txt)
+- загрузить список в группу [https://raw.githubusercontent.com/squamaskin/netPatch_StevenBlack_hosts/master/ad.txt](https://raw.githubusercontent.com/squamaskin/netPatch_StevenBlack_hosts/master/ad.txt)
