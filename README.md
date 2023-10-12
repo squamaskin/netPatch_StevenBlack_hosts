@@ -14,10 +14,10 @@
 - rm 0.0.0.0 `CTRL+H` => `0.0.0.0 ` => ``
 - rm comments `CTRL+H` => `#.*` => ``
 - rm empty lines `CTRL+H` => `^\s*$\n` => ``
-- prepare domains `CTRL+H` => `^(?:w{3}\.)?.*?([^.\r\n\/]+\.)([^.\r\n\/]+\.[^.\r\n\/]{2,6}(?:\.[^.\r\n\/]{2,6})?).*$` => `$2`
+- (!problem)prepare domains `CTRL+H` => `^(?:w{3}\.)?.*?([^.\r\n\/]+\.)([^.\r\n\/]+\.[^.\r\n\/]{2,6}(?:\.[^.\r\n\/]{2,6})?).*$` => `$2`
 - rm duplicates `CTRL+A CTRL+SHIFT+P` => `Delete Duplicate Lines`
 - sort `CTRL+A CTRL+SHIFT+P` => `Sort Lines Ascending`
-- add "." before domain `CTRL+H` => `(^.*)$` => `.$1`
+- (!problem)add "." before domain `CTRL+H` => `(^.*)$` => `.$1`
 
 ## NetPatch Firewall
 - загрузить список в группу [https://raw.githubusercontent.com/squamaskin/netPatch_StevenBlack_hosts/master/ad.txt](https://raw.githubusercontent.com/squamaskin/netPatch_StevenBlack_hosts/master/ad.txt)
